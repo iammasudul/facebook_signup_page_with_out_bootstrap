@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background: #0e5c94;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 15%;
+}
+.logo img{
+  width: 100%;
+  margin-left: 100px;
+}
+.login{
+  width: 55%;
+  display: inline-block;
+}
+form{
+  padding-left: 55px;
+}
+.form-group{
+  display: inline-block;
+  width: 215px;
+} 
+label{
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 15px 0px 0px 0px;
+}
+input{
+  height: 30px;
+  color: white;
+  /* width: 150px; */
+  margin: 10px 0; 
+}
+input[type="button"]{
+  background: #024b80;
+  /* border: none; */
+  border: 1px solid black;
+  padding: 1px 5px;
+  box-shadow: 0px 0px 1px 0px;
+}
+input[type="button"]:hover{
+  background: #0e5c94;
+}
+
+.main-body{
+  display: flex;
+  background: #E9EBEE;
+  padding-bottom: 25px;
+}
+.recent{
+  width: 50%;
+  margin-left: 100px;
+}
+.recent h3{
+  color: #0e5c94;
+  margin-top: 85px;
+  font-size: 25px;
+}
+.recent img{
+  width: 80%;
+  margin-top: 25px;
+}
+.sign-up{
+  width: 50%;
+}
+.form form{
+  padding: 0px;
+}
+.form h1{
+  margin-top: 50px;
+  font-size: 40px;
+}
+.form p{
+  font-size: 18px;
+}
+form{
+
+}
+.form form input{
+  border: none;
+  border: 1px solid #4f5552;
+  border-radius: 5px;
+  padding: 5px;
+}
+input[type="text"]{
+  margin-right: 15px;
+}
+.form form input[type="email"]{
+  width: 400px;
+}
+.form form input[type="password"]{
+  width: 400px;
+}
+.form form label{
+  color: gray;
+  font-weight: 500px;
+  display: block;
+}
+.form form input[type="date"]{
+  width: 400px;
+}
+.form form input[type="radio"]{
+  margin: 0;
+  margin-right: 12px;
+  vertical-align: middle;
+  /* margin-left: 10px; */
+}
+.form form .gender label{
+  color: gray;
+  font-weight: 500px;
+  /* display: block; */
+}
+.form form input[type="submit"]{
+  width: 200px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 20px;
+  background: #69A354;
+  color: white;
+}
+input::placeholder{
+  font-size: 15px;
+  color: #A69999;
+}
+.form form h6{
+  font-weight: 300px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.form form p{
+  font-weight: 300px;
+  font-size: 10px;
+  margin-top: 5px;
+}
